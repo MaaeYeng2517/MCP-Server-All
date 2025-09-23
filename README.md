@@ -15,9 +15,11 @@
 graph TD;
     user-->Prompt;
     MCPServer-->LLM;
-    LLM-->MCPServer
+    MCPServer-->DB;
+    DB-->MCPServer;
+    LLM-->MCPServer;
     Prompt-->MCPServer;
-    C-->D;
+    MCPServer-->reponse;
 ```
 
 > [!NOTE]
