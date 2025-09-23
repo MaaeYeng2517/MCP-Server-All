@@ -11,6 +11,14 @@
 - Sending automated voice replies to Customers
 - Event Scheduling
 
+## installation 
+```python
+
+llm [command]
+
+
+```
+
 ```mermaid
 graph TD;
     user-->Prompt;
@@ -58,4 +66,4 @@ prompt =""
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 > 
-Managing Coding https://github.com/mem0ai/mem0-mcp
+
