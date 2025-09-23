@@ -14,7 +14,7 @@
 ```mermaid
 graph TD;
     USer-->MCPServer;
-    A-->C;
+    LLM-->MCPServer;
     B-->D;
     C-->D;
 ```
