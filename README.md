@@ -24,7 +24,13 @@ graph TD;
     LLM-->MCPServer;
     MCPServer-->reponse;
 ```
+# Prompt
 
+```python
+
+prompt =""
+
+````
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
