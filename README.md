@@ -11,6 +11,14 @@
 - Sending automated voice replies to Customers
 - Event Scheduling
 
+```mermaid
+graph TD;
+    USer-->MCP Server;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
