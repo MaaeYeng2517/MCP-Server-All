@@ -13,9 +13,9 @@
 
 ```mermaid
 graph TD;
-    USer-->MCPServer;
+    USer-->Prompt;
     LLM-->MCPServer;
-    B-->D;
+    Prompt-->MCPServer;
     C-->D;
 ```
 
