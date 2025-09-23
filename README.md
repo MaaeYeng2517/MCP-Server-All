@@ -20,7 +20,6 @@ graph TD;
     MCPServer-->DB;
     DB-->MCPServer;
     LLM-->MCPServer;
-    Prompt-->MCPServer;
     MCPServer-->reponse;
 ```
 
