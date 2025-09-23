@@ -1,8 +1,8 @@
 # MCP-Server-All
 
 ## Use Case 
-AI Coding Assistants
-Meeting Scheduling
+- AI Coding Assistants
+- Meeting Scheduling
 Document Generation
 Content Workflow Automation
 Developer Workflows
