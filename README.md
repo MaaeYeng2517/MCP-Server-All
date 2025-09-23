@@ -13,7 +13,7 @@
 
 ```mermaid
 graph TD;
-    USer-->MCP Server;
+    USer-->MCPServer;
     A-->C;
     B-->D;
     C-->D;
