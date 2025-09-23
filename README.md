@@ -14,6 +14,8 @@
 ```mermaid
 graph TD;
     user-->Prompt;
+    Prompt-->request;
+    request-->MCPServer;
     MCPServer-->LLM;
     MCPServer-->DB;
     DB-->MCPServer;
