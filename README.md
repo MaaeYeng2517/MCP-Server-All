@@ -14,6 +14,8 @@
 ```mermaid
 graph TD;
     user-->Prompt;
+    prompt-->TextAnalytic;
+    TextAnalytic-->MCPServer;
     Prompt-->request;
     request-->MCPServer;
     MCPServer-->LLM;
