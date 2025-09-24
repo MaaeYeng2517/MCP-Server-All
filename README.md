@@ -11,13 +11,7 @@
 - Sending automated voice replies to Customers
 - Event Scheduling
 
-## installation 
-```python
 
-llm [command]
-
-
-```
 
 ```mermaid
 graph TD;
@@ -31,6 +25,37 @@ graph TD;
     DB-->MCPServer;
     LLM-->MCPServer;
     MCPServer-->reponse;
+```
+
+## installation 
+```python
+## Startt Installation python
+
+pip install llm 
+pipx install llm
+uv tool install llm
+brew install llm
+
+## Upgrade version
+pip install -U llm
+pipx upgrade llm
+uv tool upgrade llm
+brew upgrade llm
+llm install -U llm
+
+## Using uvx
+export OPENAI_API_KEY='sx-...'
+uvx llm 'test uvx
+uvx --with llm-anthropic llm -m claude-3.5-haiku'
+
+uvx llm keys set openai
+
+
+llm [command]
+[generate]
+[chat]
+[model]
+
 ```
 
 ## Question
