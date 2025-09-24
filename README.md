@@ -35,22 +35,28 @@ pip install llm
 pipx install llm
 uv tool install llm
 brew install llm
+```
 
 ## Upgrade version
+```python
 pip install -U llm
 pipx upgrade llm
 uv tool upgrade llm
 brew upgrade llm
 llm install -U llm
+```
 
 ## Using uvx
+```python
 export OPENAI_API_KEY='sx-...'
 uvx llm 'test uvx
 uvx --with llm-anthropic llm -m claude-3.5-haiku'
 
 uvx llm keys set openai
 
-
+```
+## llm command
+```python
 llm [command]
 [generate]
 [chat]
