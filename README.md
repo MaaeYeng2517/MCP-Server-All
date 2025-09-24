@@ -61,6 +61,14 @@ llm [command]
 [generate]
 [chat]
 [model]
+[setkey]
+[install][models]
+
+[--tools]
+[--schemas]
+[--schema-multi]
+'data1','data2','data3',..,'datan'
+
 
 ```
 
